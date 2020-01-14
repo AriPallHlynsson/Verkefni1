@@ -5,9 +5,9 @@ pwd - print working directory
 mkdir - make directory
 
 2. Hvað gera eftirfarandi Git skipanir?
-git clone
-git status
-git diff
+git clone - clone repository
+git status - show "screenshot" status
+git diff - Show changes between commits, commit and working tree, etc
 
 3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
 git log
