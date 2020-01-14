@@ -20,4 +20,4 @@ git branch -  List, create, or delete branches
 
 6. Hversu oft telur þú að eigi að gera færslur (commit) Á 15-20 mín fresti.
 
-7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT? 
+7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT? The working directory is a directory of a hierarchical file system, Staging are is the place between the program and the file that saves the changes. In other words: git - staging area - desktop
