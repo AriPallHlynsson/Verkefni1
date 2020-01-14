@@ -1,8 +1,8 @@
 1. Hvað gera eftirfarandi Linux skipanir?
-cd -
-ls -
-pwd -
-mkdir -
+cd - change directory
+ls - list directory
+pwd - print working directory
+mkdir - make directory
 
 2. Hvað gera eftirfarandi Git skipanir?
 git clone
