@@ -16,7 +16,7 @@ git branch -  List, create, or delete branches
 
 4. Hvað er útgáfustýring (Version Control)? Version control recoreds diffrent versions and allows you to go back to them
 
-5. Hverjir eru helstu kostir við að nota GIT? Þú getur farið á milli mysminandi útgáfur af verkefninu
+5. Hverjir eru helstu kostir við að nota GIT? Þú getur farið á milli misminandi útgáfur af verkefninu. T.d farið þegar það er bara búið að svara 5 spurningum.
 
 6. Hversu oft telur þú að eigi að gera færslur (commit) Á 15-20 mín fresti.
 
