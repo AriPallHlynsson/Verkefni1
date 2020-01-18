@@ -1,0 +1,2 @@
+Þar sem ég var einn að vinna þetta verkefni hafði ég alveg frjálsar hendur um hvað varð fyrir valinu. Ég valdi leik sem ég hef mjög gaman af að spila og heitir“ Stardew Valley.“ Ég leitaði upplýsinga um hann á netinu. Fann heimasíðu höfundar, leiksins og útgáfufyritækisins sem ég nýtti mér við gerð textans á heimasíðunni.
+Mér fannst líka sagan um það hvernig leikurinn varð til áhugaverð og vildi fróðast meira um það

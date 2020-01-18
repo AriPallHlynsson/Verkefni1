@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" /> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  border:1px solid black
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav nav nav nav'
+    'left middle middle middle middle right' 
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style nav */
+.nav{
+    grid-area: nav;
+    border:1px solid black;
+    padding: 5px;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  text-align: justify;
+  border:1px solid black
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  text-align: justify;
+  border: 1px solid black
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  text-align: justify;
+  border: 1px solid black
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="header">
+    <h2><em>Skipulag vefsíðu með með Grid</em></h2>
+  </div>
+  <div 
+  <p><a href="https://www.w3schools.com/html/">Tengill 1</a></p>
+    </div>
+  
+  <div class="left" ><p><strong>Litafræði</strong></p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgjulengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu. </div>
+  <div class="middle"><p><strong>Leturfræði</p></strong>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmislegum fontum. Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Í dag með ritvinnslu- og hönnunarforriti er orðið mun auðveldara að búa til prentuðum textum. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræði er nátengd sögu prentunar.</div>  
+  <div class="right"><p><strong>Leturgerð</strong></p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerðaflokkanir eru til en helstu eru þverendaletur og steinskrift. Þverendar kallast þau litlu strik á endum stafs. <p>Heimild: Wikipedia - leturfræði</p></div>
+  
+  <div class="footer">
+    <p>Footer</p>
+  </div>
+</div>
+
+</body>
+</html>

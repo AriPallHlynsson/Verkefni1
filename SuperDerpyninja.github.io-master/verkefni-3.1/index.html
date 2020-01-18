@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" /> 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  padding: 10px;
+  text-align: center;
+  border:1px solid black
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav nav nav nav'
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style nav */
+.nav{
+ grid-area: nav;
+ display: flex;
+ flex-flow: row;  /* ath*/
+ justify-content: space-around;
+ padding: 0;
+ list-style-type: none;
+ border: 1px solid black
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  text-align: justify;
+  border:1px solid black
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  text-align: justify;
+  border: 1px solid black
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+  text-align: justify;
+  border: 1px solid black
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  display: flex;
+  flex-flow: row;  /* ath*/
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid black
+}
+
+  span.center {
+  display: block;
+  margin: 1em auto;
+  width: 400px;
+  height: 50px;
+  padding: 3px;
+  text-align: left;
+  border: 1px solid black    
+  }
+
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="header">
+        <font size="800"> <p style="color:brown"><em>Skipulag vefsíðu með með Grid</em></p></font>
+     <p><b><a href="https://www.w3schools.com/css/css_grid.asp">Grid system</a></p></a></b>
+  </div>
+  
+  <div class="nav"
+      <p><a href="../">Superduperjinja forsíða</a>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp">w3schools.com</a>
+
+      <a href="https://www.w3schools.com/cssref/pr_text_text-align.asp">w3schools.com 3</a>
+
+      <a href="https://www.w3schools.com/cssref/css_colors.asp">w3schools.com 4</a>
+      
+
+      </div>
+  <div class="left" ><p><strong>Litafræði</strong></p>Litir eru í raun hluti af rafsegulrófinu. Aðeins lítill hluti af því, litrófið er sýnilegt. Hver litur hefur sína bylgjulengd og mannlegt auga getur einungis greint bylgjulengdir frá um það bil 400 til 700 nanómetrar. Bylgjulengdin er í sjálfu sér ekki litur. Liturinn verður til í heilanum og auganu. 
+    <p><b><a href="http://vefir.multimedia.is/hafdis/lit/ljos%20og%20litir.htm">Allt um litafræði</a></b></p>
+  </div>
+  <div class="middle"><p><strong>Leturfræði</p></strong>Leturfræði eða týpógrafía (úr grísku τύπος (typos) „form“ og γραφή (graphy) „skrift“) er prentlist þar sem lögð er áhersla á notkun leturs. Ýmislegar leturgerðir eru til, það er að segja söfn bókstafa sem hafa sömu hönnun. </span></p>
+    <p><span class="center">Orðið fontur á við tilbrigði leturgerðar, eins og skáletrað eða feitletrað. Leturgerð má vera með ýmislegum fontum.</p>
+        Með komu tölvunnar hefur leturfræði mikið breyst, áður en hún var kynnt til sögunnar var leturfræði fag útlærðra starfsmanna. Í dag með ritvinnslu- og hönnunarforriti er orðið mun auðveldara að búa til prentuðum textum. Samt sem áður er leturfræði stundum ennþá talin fagkunnátta. Saga leturfræði er nátengd sögu prentunar.</div>  
+  <div class="right"><p><strong>Leturgerð</strong></p>Leturgerð eða stafagerð er í leturfræði safn bókstafa og tákna sem hafa sömu hönnun. Ýmislegar leturgerðaflokkanir eru til en helstu eru þverendaletur og steinskrift. Þverendar kallast þau litlu strik á endum stafs. <p>
+      <P><b><a href="https://is.wikipedia.org/wiki/Leturger%C3%B0">Heimild: Wikipedia - leturfræði</p></a></b></p>
+    </div>
+  
+  <div class="footer"
+      <p><b><a href="SuperDerpyninja.github.io/verkefni-3/Síða-2.html">Google fonts</a></b>
+
+      <b><a href="https://www.w3schools.com/html/">Kerfisletur-System fonts</a></b>
+
+      <b><a href="https://www.w3schools.com/html/">Litaval</a></b>
+
+      <b><a href="https://tskoli.is/mannaudur/?leit=guðmundur%20jón%20guðjónsson&staffcat=Upplýsingatækniskólinn">©2019 GJG</a></b></p>
+
+  </div>
+</div>
+
+</body>
+</html>
+

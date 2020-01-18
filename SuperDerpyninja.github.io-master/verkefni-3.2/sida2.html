@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" /> 
+<style>
+  body {
+    max-width: 60em;
+    margin: 1em auto;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: rgb(0, 0, 0);
+  }
+.header {
+  
+    color: White;
+  grid-area: header;
+  padding: 10px;
+  text-align: center;
+  border:1px solid black
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'nav nav nav nav nav nav'
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+  
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: auto; 
+}
+
+.nav{
+  
+ grid-area: nav;
+ display: flex;
+ flex-flow: row; 
+ justify-content: space-around;
+ padding: 0;
+ list-style-type: none;
+ border: 3px solid rgb(255, 255, 255)
+}
+
+
+.left {
+  color:white;
+  grid-area: left;
+  text-align: justify;
+  border:3px solid rgb(255, 255, 255)
+}
+
+
+.middle {
+    color:white;
+  grid-area: middle;
+  text-align: justify;
+  border: 3px solid rgb(255, 255, 255)
+}
+
+
+.right {
+    
+    color:white; 
+  width: 200px;
+  grid-area: left;
+  text-align: left;
+  border: 3px solid 
+
+}
+.left {
+    background: url("https://pm1.narvii.com/6354/f48758de5149885e862a07703d0e143a730f537c_hq.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 270px;
+  grid-area: right;
+  text-align: justify;
+  border: 3px solid 
+
+}
+
+
+.footer {
+  background-color: rgba(255, 0, 0, 0.041);
+  grid-area: footer;
+  display: flex;
+  flex-flow: row;  /* ath*/
+  justify-content: space-around;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid black
+}
+
+  span.center {
+  display: block;
+  margin: 1em auto;
+  width: 400px;
+  height: 50px;
+  padding: 3px;
+  text-align: left;
+  border: 1px solid black    
+  }
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header'
+      'nav nav nav nav nav nav' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="header">
+        <font size="800"> <p style="color:rgb(4, 0, 255)"><em>Sans the skeleton</em></p></font>
+     <p><b><a href="https://deltarune.fandom.com/wiki/Deltarune">Deltarune</a></p></a></b>
+  </div>
+  
+  <div class="nav">
+    <a href="index.html">Index síðan</a>
+
+    <a href="sida2.html">Síða 2</a>
+
+    <a href="sida3.html">Síða 3</a>
+
+    <a href="sida4.html">Síða 4</a>
+
+</div>
+     
+      
+  <div class="right" ><p><strong>About Sans</strong></p>Sans is the brother of Papyrus and a major
+     character in Undertale. He first appears in the forest after the protagonist exits the Ruins. 
+     He serves as a supporting character in a Neutral and True Pacifist Route and as the final boss
+      and heroic antagonist in a Genocide Route.
+    <p><a href="https://undertale.fandom.com/wiki/Sans">More Info</a></p>
+  </div>
+  <div class="left" ><p><strong></strong></p>
+   
+ </div>
+  <div class="middle"><p><strong>Personality</p></strong>Sans is laid back, often sleeping on the job and taking breaks. His laziness is a combination of fatalism and apathy. He wonders if his indolence stems from his knowledge that any progress he makes will be erased when the timeline resets. Conversely, he suggests that this knowledge could be "a poor excuse for being lazy."
+  <p>
+    Though Sans is usually agreeable, he becomes eerily serious at particular moments. He is also observant; Sans reads the protagonist's expressions and can often tell when they have already done certain tasks. He enjoys making skeleton-related puns and the fact that he performs at MTT Resort hints that he may be a talented comedian.</p>
+  <p><strong></strong></p>Sans's attitude towards the protagonist depends on their actions, though he usually enjoys pranking them and occasionally hanging out with them unless they kill Papyrus. Near the end of a Neutral Route, he judges them on their EXP. At the end of the True Pacifist Route, Sans considers them a good friend. During the Genocide Route, he does not bother to encounter the protagonist until the end where he has no choice but to fight them, expressing subtle fury toward them during the period together.
+  
+  
+    </div>
+  
+  <div class="footer"
+      <p><a href="https://undertale.fandom.com/wiki/Frisk">Frisk</a>
+
+      <a href="https://undertale.fandom.com/wiki/Asriel_Dreemurr">Asriel</a>
+
+      <a href="https://undertale.fandom.com/wiki/W._D._Gaster">W.D Gaster</a>
+
+      <a href="https://undertale.fandom.com/wiki/Chara">Chara</a></b>
+
+      <a href="https://undertale.fandom.com/wiki/Napstablook">Napstablook</a>
+      
+      <a href="https://undertale.fandom.com/wiki/Mettaton">Mettaton</a>
+  </div>
+</div>
+
+</body>
+</html>
